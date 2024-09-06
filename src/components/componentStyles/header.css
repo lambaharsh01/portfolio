@@ -1,0 +1,29 @@
+.projectDiv{
+    background-color: #a7bdc7;;
+  }
+  
+  .nav-item{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  }
+  
+  .navbar-collapse{
+      float: right;
+  }
+  
+  nav{
+      height: 70px;
+      background-color:#a7bdc7;
+      border-bottom: 1px solid;
+      margin-bottom: 70px;
+  }
+
+  .navigation{
+      height: 70px;
+  }
+
+  #navbarSupportedContent{
+      background-color:#a7bdc7;
+  }
+   

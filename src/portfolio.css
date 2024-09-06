@@ -1,0 +1,238 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+
+*{  margin:0px; }
+
+
+.darkGreyText{
+  color:#365764
+}
+
+    
+    
+    .main_container{ 
+    background-color: whitesmoke ;
+    }
+    .change_inrea2{
+        font-size: 25;
+        color: black; 
+    }
+    
+    .brand{
+    font-weight: 700; 
+    font-size:30px !important; 
+    }
+    .icon{
+      float: left; 
+      font-size: 30px;
+    } 
+    .icon a{
+      color: white;
+    }
+    
+    .r_icon{
+        font-size: 58px ;
+        transition: 0.4s;
+    }
+    .r_icon_phone{
+        font-size: 38px ;
+        transition: 0.4s;
+    }
+
+.r_icon:hover{
+  transform: scale(1.2);
+}
+.r_icon_phone:hover{
+  transform: scale(1.2);
+}
+    
+    .profile{ 
+      height: 260px; 
+      width: 260px; 
+      border:5px solid white;
+    }
+    .information{ 
+      padding-top: 30px; 
+      background: rgba(0,0,0,.4) url(../public/portfolio_images/bg.jpg); 
+      background-blend-mode:darken; 
+      /* background: rgba(0,0,0,.4) url(../public/portfolio_images/bg.jpg); background-blend-mode:darken;  */
+      background-size: 100%; 
+      background-attachment: fixed;
+    }
+    
+    .rought{
+      height: 900px;
+    }
+    .progress{
+      height: 30px;
+    }
+    
+    
+    .project:hover{
+      box-shadow: 0 0  0 3px rgba(244,240,236,0.6);
+    }
+    
+    
+    
+    /*info section start*/
+    .updates{
+      background: rgba(0,0,0,.5) url(../public/portfolio_images/bg.jpg); 
+      /* background: rgba(0,0,0,.5) url(images/bg.jpg);  */
+      background-blend-mode:darken; 
+      background-size: 100%;
+    }
+    .info1{ 
+      height: 300px; 
+    }
+    .info2{
+      height: 300px; 
+    }
+    
+    .btn{height: 33px; font-size: 13px;}
+    
+    
+    .content_align_down{
+        text-align: left;
+      }
+      
+      .send_query_Section{
+        background-color: whitesmoke;
+        color: black;
+      }
+    
+      .border_when_big{
+        border: 1px solid darkgrey;
+        border-radius: 2px;
+    }
+    
+    .queryButton{
+        background-color:#57b846 !important;
+        border: none;
+        margin-bottom: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    }
+    .disabledQueryButton{
+        background-color:#a7bdc7 !important;
+        border: none;
+        margin-bottom: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    
+
+    @media (max-width: 768px) {     
+    .information{
+        padding-top: 80px; 
+        background: rgba(0,0,0,.4) url(../public/portfolio_images/bg3.jpg);
+        background-blend-mode:darken; 
+        background-size: 100%;
+        background-attachment: fixed;
+        }
+
+        .profile{ 
+          height: 200px; 
+          width: 200px; 
+        }
+      }
+    
+    
+    @media (max-width: 576px) {  
+    .send_query_Section{
+      background-color: #a7bdc7;
+      color: white;
+    }
+    
+    .r_icon{
+        font-size: 35px ;
+        margin-bottom: 20px;
+    }
+
+    .r_icon_phone{
+        font-size: 32px ;
+        margin-bottom: 20px;
+    }
+    
+    .brand{
+        font-size:23px !important; 
+        }
+    
+    .nav-item{
+        font-size: 13px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+       
+    }
+    
+    .content_align_down{
+        text-align: center;
+    }
+        
+    .border_when_small{
+        border: 1px solid darkgrey;
+        border-radius: 2px;
+    }
+    }
+
+    .linkElements {
+      cursor: pointer;
+    }
+    
+    
+
+    
+    
+    
+    
+    
+    /* Scroll bar customised */
+    
+
+    ::-webkit-scrollbar {
+      width: 2px;
+      height: 2px; 
+      /* width: 5px;
+      height: 5px;  */
+  }
+
+  ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: #365764;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: #365764;
+  }
+
+  ::-webkit-scrollbar-button {
+      display: none;
+  }
+
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    overflow-x: hidden;
+  }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

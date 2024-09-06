@@ -1,0 +1,117 @@
+/* Responsiveness issue */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0px !important;
+} 
+
+.projectSectionBackground{
+        background-color: #bbced78a;;
+}
+
+
+ /* Card sizes  */
+   
+    .card_small {
+        grid-row-end: span var(--card_small);
+    }
+
+    .card_medium {
+        grid-row-end: span var(--card_medium);
+    }
+
+    .card_large {
+        grid-row-end: span var(--card_large);
+    }
+    .card_extra_large {
+        grid-row-end: span var(--card_extra_large);
+    }
+    .card_extra_extra_large {
+        grid-row-end: span var(--card_extra_extra_large);
+    }
+
+
+/* Project card designing */
+    .projectContainer {
+        width: 100%;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, var(--card_width));
+        grid-auto-rows: var(--row_increment);
+        justify-content: center;
+    }
+
+    .projectContainer .projectCard {
+        padding: 0;
+        margin: 15px 10px;
+        border-radius: var(--card_border_radius);
+        overflow: hidden;
+    }
+
+    .projectContainer img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s; 
+    }
+    .projectContainer .projectCardImage:hover {
+        transform: scale(1.1); 
+    }
+
+
+    .projectContainer .projectContent{
+        height: 40px;
+    }
+
+    .modal-open {
+        background-color: rgba(0, 0, 0, 0.5);
+        pointer-events: none; 
+        filter: blur(2px); 
+      }
+
+
+    /* Media query */
+
+
+    :root {
+        --card_width: 300px;
+        --row_increment: 10px;
+        --card_border_radius: 16px;
+        --card_small: 26;
+        --card_medium: 33;
+        --card_large: 44;
+        --card_extra_large: 48;
+        --card_extra_extra_large: 54;
+    }
+
+    
+    
+    @media only screen and (min-width: 576px) and (max-width: 768px) {
+
+        :root {
+            --card_width: 240px;
+            --card_small: 20;
+            --card_medium: 26;
+            --card_large: 36;
+            --card_extra_large: 40;
+            --card_extra_extra_large: 45;
+          }
+
+    }
+    
+    @media (max-width: 576px) {
+
+        :root {
+            --card_width: 180px;
+            --card_small: 14;
+            --card_medium: 27;
+            --card_large: 28;
+            --card_extra_large: 31;
+            --card_extra_extra_large: 36;
+        }
+
+        .projectContainer .projectContent{
+            height: 30px;
+            margin-top: 30px;
+        }
+      }
+
+
