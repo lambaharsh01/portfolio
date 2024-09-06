@@ -55,7 +55,6 @@ export default function Header(){
 
     
    return<div className="row navigation">
-
     <nav 
     className="navbar navbar-expand fixed-top"
     style={{

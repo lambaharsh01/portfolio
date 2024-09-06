@@ -27,7 +27,7 @@ export default function ProfileBanner(){
     
             <a rel="noreferrer" href="https://www.linkedin.com/in/harsh-lamba-1b185b214" target="_blank">
               <FaLinkedin 
-              className='ps-sm-4 ms-sm-0 ms-2 r_icon'
+              className={`ps-sm-4 ms-sm-0 ms-2 r_icon ${smallScreen ? "text-white":"darkGreyText"}`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 1s',
@@ -39,7 +39,7 @@ export default function ProfileBanner(){
   
             <a rel="noreferrer" href="https://github.com/lambaharsh01" target="_blank">
               <FaGithubSquare 
-              className='ps-sm-4 ms-sm-0 ms-2 r_icon'
+              className={`ps-sm-4 ms-sm-0 ms-2 r_icon ${smallScreen ? "text-white":"darkGreyText"}`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 1.8s',
@@ -51,7 +51,7 @@ export default function ProfileBanner(){
   
             <a rel="noreferrer" href="https://wa.link/zfpu97" target="_blank">
               <FaWhatsappSquare 
-              className='ps-sm-4 ms-sm-0 ms-2 r_icon'
+              className={`ps-sm-4 ms-sm-0 ms-2 r_icon ${smallScreen ? "text-white":"darkGreyText"}`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 2.6s',
@@ -63,7 +63,7 @@ export default function ProfileBanner(){
   
             <a href="tel:8287868558" rel="noreferrer">
               <FaPhoneSquareAlt 
-              className='ms-sm-4 ms-2 r_icon_phone'
+              className={`ms-sm-4 ms-2 r_icon_phone ${smallScreen ? "text-white":"darkGreyText"}`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 3.4s',
@@ -72,14 +72,14 @@ export default function ProfileBanner(){
             </a>
   
           </div>
-          <div className={`col-12 text-center text-white mt-12 pb-3`}>
+          <div className={`col-12 text-center ${smallScreen ? "text-white":"darkGreyText"} mt-12 pb-3`}>
 
-                <h1 className={`border-bottom font-semibold ${ smallScreen ? "text-3xl pb-1" : "text-5xl pb-2"}`}>
+                <h1 className={`font-bold ${ smallScreen ? "text-3xl pb-1 border-bottom" : "text-5xl pb-2 darkGreyBorderBottom"}`}>
                     <AnimateWords string="HARSH "/>
                     <AnimateWords string="LAMBA " initialDelay={2} averageTimeGap={0.15}/>
                 </h1>
                 
-                <h3 className={`pt-1 `}>
+                <h3 className={`pt-1 font-bold`}>
                     <AnimateWords string="MERN "/>
                     <AnimateWords string="STACK " initialDelay={1.2} />
                     <AnimateWords string="DEVELOPER " initialDelay={1.4}/>

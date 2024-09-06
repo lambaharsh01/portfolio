@@ -63,9 +63,53 @@ const validateFields= ()=> {
 
 return(
 <div className="w-full">
-<div className='darkGreyBackground h-5 rounded-t-3xl'></div>
-<div className="row pt-44 darkGreyBackground">
+        <div className='darkGreyBackground h-5 rounded-t-3xl'></div>
 
+        <div className='darkGreyBackground pt-2 pb-3 ps-3 border-bottom'>
+
+            <span className={`text-white font-semibold  ${ smallScreen ? "text-4xl":"text-5xl"}`}>
+                <AnimateWords string='My' averageTimeGap={0.1} initialDelay={1}/>
+            </span>
+                <br />            
+            <span className={`text-white font-semibold  ${ smallScreen ? "text-4xl":"text-5xl"}`}>
+                <AnimateWords string='Contacts' averageTimeGap={0.1} initialDelay={1}/>
+            </span>
+            
+        </div>
+
+        
+<div className="row darkGreyBackground">
+
+    <div className="col-sm-6 p-2 mb-5">
+        <div className='w-100 h-100 p-4'>
+        
+
+        <h3 className={`text-white ${ smallScreen ? "text-4xl":"text-5xl"} mb-4`}>
+            <AnimateWords string="Get In Touch" averageTimeGap={0.1} initialDelay={1}/>
+        </h3>
+
+
+            <p className='text-white font-medium text-lg'>
+            I'm always excited to collaborate, discuss new projects, or simply chat about the latest developments in the MERN stack universe. Feel free to reach out to me anytime, and I'll do my best to respond promptly.
+            </p>
+
+
+            <h3 className={`text-white ${ smallScreen ? "text-2xl":"text-2xl"} mt-4 mb-2`}>
+                    <AnimateWords string="Contact Information:" averageTimeGap={0.1} initialDelay={1}/>
+            </h3>
+
+            <h3 className={`text-white text-lg`}>
+                Phone: 8287868558
+            </h3>
+            <h3 className={`text-white text-lg`}>
+                Email: lambaharsh01@gmail.com or lambaharsh0101@gmail.com
+            </h3>
+
+
+        </div>
+    </div>
+            
+            
     <div className="col-sm-6 querySection p-2 mb-5 bg-white">
         <div className='w-100 h-100 p-4'>
 
@@ -114,35 +158,6 @@ return(
             disabled={disable}>
             <AnimateWords string={querySubmissionStatus} averageTimeGap={0.1} initialDelay={1}/>
         </button>
-
-        </div>
-    </div>
-
-    <div className="col-sm-6 p-2 mb-5">
-        <div className='w-100 h-100 p-4'>
-        
-
-        <h3 className={`text-white ${ smallScreen ? "text-4xl":"text-5xl"} mb-4`}>
-            <AnimateWords string="Get In Touch" averageTimeGap={0.1} initialDelay={1}/>
-        </h3>
-
-
-            <p className='text-white font-medium text-lg'>
-            I'm always excited to collaborate, discuss new projects, or simply chat about the latest developments in the MERN stack universe. Feel free to reach out to me anytime, and I'll do my best to respond promptly.
-            </p>
-
-
-            <h3 className={`text-white ${ smallScreen ? "text-2xl":"text-2xl"} mt-4 mb-2`}>
-                    <AnimateWords string="Contact Information:" averageTimeGap={0.1} initialDelay={1}/>
-            </h3>
-
-            <h3 className={`text-white text-lg`}>
-                Phone: 8287868558
-            </h3>
-            <h3 className={`text-white text-lg`}>
-                Email: lambaharsh01@gmail.com or lambaharsh0101@gmail.com
-            </h3>
-
 
         </div>
     </div>
