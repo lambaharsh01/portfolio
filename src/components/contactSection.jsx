@@ -109,7 +109,7 @@ return(
     </div>
             
             
-    <div className="col-sm-6 querySection p-2 mb-5 bg-white">
+    <div className="col-sm-6 querySection p-2 mb-5 bg-white" id='contact_sec'>
         <div className='w-100 h-100 p-4'>
 
         <h3 className={`darkGreyText ${ smallScreen ? "text-4xl":"text-5xl"} mb-4`}>

@@ -10,9 +10,7 @@ export default function ProjectSection(){
 
   const smallScreen= isSmallScreen();
 
-  const projectArrayToBeConstant=[];
-
-  const projectArrayToBeShuffled=[
+  const projectArrayFirst=[
     {
       projectName:"RentCo",
       imageUri: '/projects/rentCo/main.jpg',
@@ -32,30 +30,12 @@ export default function ProjectSection(){
         }
       ],
       gallery:[
-        { 
-          heading:"",
-          imageUri: "/projects/rentCo/dashboard.jpg"
-        }, 
-        { 
-          heading:"",
-          imageUri: "/projects/rentCo/property.jpg"
-        }, 
-        { 
-          heading:"",
-          imageUri: "/projects/rentCo/transactions.jpg"
-        }, 
-        { 
-          heading:"",
-          imageUri: "/projects/rentCo/tenantInfo.jpg"
-        },  
-        { 
-          heading:"",
-          imageUri: "/projects/rentCo/addingTenant.jpg"
-        }, 
-        { 
-          heading:"",
-          imageUri: "/projects/rentCo/addTenant.jpg"
-        }, 
+        { imageUri: "/projects/rentCo/dashboard.jpg" }, 
+        { imageUri: "/projects/rentCo/property.jpg" }, 
+        { imageUri: "/projects/rentCo/transactions.jpg" }, 
+        { imageUri: "/projects/rentCo/tenantInfo.jpg" },  
+        { imageUri: "/projects/rentCo/addingTenant.jpg" }, 
+        { imageUri: "/projects/rentCo/addTenant.jpg" }, 
       ],
     },
     {
@@ -77,32 +57,38 @@ export default function ProjectSection(){
         }
       ],
       gallery:[
-        { 
-          heading:"",
-          imageUri: "/projects/joggerSports/dashboard.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/joggerSports/collection2.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/joggerSports/infoBanner.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/joggerSports/collection.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/joggerSports/product.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/joggerSports/featuredMobile.jpg"
-        },
+        { imageUri: "/projects/joggerSports/dashboard.jpg"},
+        { imageUri: "/projects/joggerSports/collection2.jpg"},
+        { imageUri: "/projects/joggerSports/infoBanner.jpg"},
+        { imageUri: "/projects/joggerSports/collection.jpg"},
+        { imageUri: "/projects/joggerSports/product.jpg"},
+        { imageUri: "/projects/joggerSports/featuredMobile.jpg"},
       ],
     },
+    {
+      projectName:"Bus Ticket App",
+      imageUri: '/projects/charter/main.jpg',
+      wokringTimeLine:"02-2024 to 04-2024",
+      projectDiscription:`This is a clone of the bus ticketing app 'Charter,' used for booking online tickets with the Delhi Transport Corporation.`,
+      cardLength:"xxl",
+      techStack:["React Native"],
+      githubLinks: [
+        {
+          heading:"Charter App Repo",
+          link:"https://github.com/lambaharsh01/ticketingMobileApp"
+        }
+      ],
+      gallery:[
+        { imageUri: "/projects/charter/dashboard.jpg"},
+        { imageUri: "/projects/charter/ticket.jpg"},
+        { imageUri: "/projects/charter/history.jpg"},
+        { imageUri: "/projects/charter/scan.jpg"},
+        { imageUri: "/projects/charter/ticket2.jpg"},
+      ],
+    },
+  ];
+
+  const projectArrayLast=[
     {
       projectName:"Furniture Store",
       imageUri: '/projects/wood/main.jpg',
@@ -117,22 +103,11 @@ export default function ProjectSection(){
         }
       ],
       gallery:[
-        { 
-          heading:"",
-          imageUri: "/projects/wood/dashboard.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/wood/products.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/wood/product.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/wood/sidebar.jpg"
-        },
+        { imageUri: "/projects/wood/main.jpg"},
+        { imageUri: "/projects/wood/dashboard.jpg"},
+        { imageUri: "/projects/wood/products.jpg"},
+        { imageUri: "/projects/wood/product.jpg"},
+        { imageUri: "/projects/wood/sidebar.jpg"},
       ],
     },
     {
@@ -149,14 +124,8 @@ export default function ProjectSection(){
         }
       ],
       gallery:[
-        { 
-          heading:"",
-          imageUri: "/projects/ide/main2.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/ide/main.jpg"
-        },
+        { imageUri: "/projects/ide/main2.jpg"},
+        { imageUri: "/projects/ide/main.jpg"},
       ],
     },
     {
@@ -173,25 +142,40 @@ export default function ProjectSection(){
         }
       ],
       gallery:[
-        { 
-          heading:"",
-          imageUri: "/projects/vsit/cources.jpg"
-        },
-        { 
-          heading:"",
-          imageUri: "/projects/wood/contact.jpg"
-        },
+        { imageUri: "/projects/vsit/main.jpg"},
+        { imageUri: "/projects/vsit/cources.jpg"},
+        { imageUri: "/projects/vsit/contact.jpg"},
+      ],
+    },
+    {
+      projectName:"Nike Clone",
+      imageUri: '/projects/nike/main.jpg',
+      wokringTimeLine:"05-2022 to 05-2022",
+      projectDiscription:"This is a clone of Nike's website made with pure html without css",
+      cardLength:"sm",
+      techStack:["HTML"],
+      githubLinks: [
+        {
+          heading:"Nike Clone",
+          link:"https://github.com/lambaharsh01/nikeClonePureHTML"
+        }
+      ],
+      gallery:[
+        { imageUri: "/projects/nike/main.jpg"},
+        { imageUri: "/projects/nike/info.jpg"},
+        { imageUri: "/projects/nike/kidsSection.jpg"},
+        { imageUri: "/projects/nike/menWomenSection.jpg"},
       ],
     },
   ]
 
-  const projectArray=[ ...projectArrayToBeConstant, ...shuffleArray(projectArrayToBeShuffled)]
+  const projectArray=[ ...shuffleArray(projectArrayFirst), ...shuffleArray(projectArrayLast)]
 
 
 return (
 <>
 
-<div className="mt-5 bg-white rounded-t-3xl">
+<div className="mt-5 bg-white rounded-t-3xl" id='product_sec'>
 <div className=" projectSectionBackground pt-3 pb-20 rounded-3xl">
 
 <div className='w-100 px-4 text-end'>

@@ -42,7 +42,7 @@ export default function TimeLineSection(){
         }
     ];
 
-    return <div className="row px-3">
+    return <div className="row px-3" id='about_sec'>
             <div className='w-100 mt-4'>
                 <div className={`col-12 darkGreyText pb-3`}>
                     <h1 className={`font-bold ${ smallScreen ? "text-4xl pb-1" : "text-5xl pb-2"}`}>

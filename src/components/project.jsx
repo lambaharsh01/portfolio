@@ -76,6 +76,7 @@ switch (cardLengthRaw) {
 return (
 <>
     {/* IMAGE CARD */}
+    
         <div 
         className={`projectCard ${cardLengthClass} border-2 border-white`}
         ref={ref} 
@@ -107,7 +108,6 @@ return (
                             </div>
                     </div>
         </div>
-
 
 {/* Show Modal */}
 

@@ -1,6 +1,6 @@
 // import {useState, useEffect, useRef} from 'react';
 
-import './portfolio.css'
+import './App.css'
 import 'react-toastify/dist/ReactToastify.css';
 
 import { ToastContainer } from "react-toastify";
