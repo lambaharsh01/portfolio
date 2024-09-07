@@ -5,6 +5,7 @@ import { ImCross } from "react-icons/im";
 
 import { FaLink } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
+import { MdDownloadForOffline } from "react-icons/md";
 
 import { useInView } from 'react-intersection-observer';
 
@@ -37,7 +38,7 @@ const smallScreen=isSmallScreen();
 
 const [show, setShow]=useState(false);
 
-const { imageUri, cardLength, projectName, projectDiscription, wokringTimeLine, githubLinks, link, gallery, techStack } = projectData;
+const { imageUri, cardLength, projectName, projectDiscription, wokringTimeLine, githubLinks, link, gallery, techStack, dowloadLink } = projectData;
 
 
 if(!imageUri) return (<span></span>);
@@ -148,6 +149,19 @@ return (
 
         <a href={link} target="_blank"  rel="noreferrer">
             <button className="text-white rounded-md bg-black me-2 px-2 py-1 border-0"> <FaLink  className="text-lg mb-1"/> Check Out Live Demo</button>
+        </a>
+
+    </div>}
+    
+    {dowloadLink && <div className="mb-7">
+
+        <div className="mb-2">
+            <span className="font-bold mb-3">Download Links :</span>
+        </div>
+
+        <a href={dowloadLink} download="charter.apk" >
+                        <button className="text-white rounded-md bg-black me-2 px-2 py-1 border-0">
+                        <MdDownloadForOffline className="text-lg mb-1" /> Download</button>
         </a>
 
     </div>}

@@ -1,0 +1,99 @@
+[
+  {
+    "projectName": "Google Drive API",
+    "imageUri": "/projects/googleDrive/main.jpg",
+    "wokringTimeLine": "08-2022 to 08-2022",
+    "projectDiscription": "This is a small project where Google Drive API is integrated with Node Js to pload files directly to google drive and using it as a storage",
+    "cardLength": "md",
+    "techStack": ["Node.js", "Google API"],
+    "githubLinks": [
+      {
+        "heading": "Google Drive API",
+        "link": "https://github.com/lambaharsh01/googleDriveApi"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/googleDrive/main.jpg" },
+      { "imageUri": "/projects/googleDrive/loading.jpg" },
+      { "imageUri": "/projects/googleDrive/preview.jpg" }
+    ]
+  },
+  {
+    "projectName": "Furniture Store",
+    "imageUri": "/projects/wood/main.jpg",
+    "wokringTimeLine": "07-2022 to 08-2022",
+    "projectDiscription": "This shopify website is an interactive UI for an online furniture store designed to provide user-friendly interface where customers can easily navigate through various furniture/ wood categories.",
+    "cardLength": "md",
+    "techStack": ["Bootstrap", "CSS", "HTML"],
+    "githubLinks": [
+      {
+        "heading": "Furniture Store Repo",
+        "link": "https://github.com/lambaharsh01/Wood-furniture-page-"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/wood/main.jpg" },
+      { "imageUri": "/projects/wood/dashboard.jpg" },
+      { "imageUri": "/projects/wood/products.jpg" },
+      { "imageUri": "/projects/wood/product.jpg" },
+      { "imageUri": "/projects/wood/sidebar.jpg" }
+    ]
+  },
+  {
+    "projectName": "Code Editor",
+    "imageUri": "/projects/ide/main.jpg",
+    "wokringTimeLine": "05-2024 to 05-2024",
+    "projectDiscription": "A simple code editor built with vanilla JavaScript, allowing you to execute and view HTML, CSS, and JavaScript code. Output includes rendered HTML, applied CSS, and console logs",
+    "cardLength": "sm",
+    "techStack": ["HTML", "CSS", "Javascript"],
+    "githubLinks": [
+      {
+        "heading": "Code Editor",
+        "link": "https://github.com/lambaharsh01/ideVanillaJavascript"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/ide/main2.jpg" },
+      { "imageUri": "/projects/ide/main.jpg" }
+    ]
+  },
+  {
+    "projectName": "Brochureware",
+    "imageUri": "/projects/vsit/main.jpg",
+    "wokringTimeLine": "07-2022 to 08-2022",
+    "projectDiscription": "This is Brochureware web page for an educational institution for their online presences.",
+    "cardLength": "sm",
+    "techStack": ["CSS", "HTML"],
+    "githubLinks": [
+      {
+        "heading": "VSIT Brochureware",
+        "link": "https://github.com/lambaharsh01/Vsit"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/vsit/main.jpg" },
+      { "imageUri": "/projects/vsit/cources.jpg" },
+      { "imageUri": "/projects/vsit/contact.jpg" }
+    ]
+  },
+  {
+    "projectName": "Nike Clone",
+    "imageUri": "/projects/nike/main.jpg",
+    "wokringTimeLine": "05-2022 to 05-2022",
+    "projectDiscription": "This is a clone of Nike's website made with pure html without css",
+    "cardLength": "sm",
+    "techStack": ["HTML"],
+    "githubLinks": [
+      {
+        "heading": "Nike Clone",
+        "link": "https://github.com/lambaharsh01/nikeClonePureHTML"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/nike/main.jpg" },
+      { "imageUri": "/projects/nike/info.jpg" },
+      { "imageUri": "/projects/nike/kidsSection.jpg" },
+      { "imageUri": "/projects/nike/menWomenSection.jpg" }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "projectName": "RentCo",
+    "imageUri": "/projects/rentCo/main.jpg",
+    "link": "https://rentcofrontend.netlify.app/",
+    "wokringTimeLine": "06-2024 to 08-2024",
+    "projectDiscription": "A software product to stramline rent collection process with analytics.",
+    "cardLength": "xl",
+    "techStack": [
+      " MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Bootstrap",
+      "CSS",
+      "HTML"
+    ],
+    "githubLinks": [
+      {
+        "heading": "Frontend Repo",
+        "link": "https://github.com/lambaharsh01/rentCoFrontend"
+      },
+      {
+        "heading": "Backend Repo",
+        "link": "https://github.com/manthan110011/rentCoBackend"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/rentCo/dashboard.jpg" },
+      { "imageUri": "/projects/rentCo/property.jpg" },
+      { "imageUri": "/projects/rentCo/transactions.jpg" },
+      { "imageUri": "/projects/rentCo/tenantInfo.jpg" },
+      { "imageUri": "/projects/rentCo/addingTenant.jpg" },
+      { "imageUri": "/projects/rentCo/addTenant.jpg" }
+    ]
+  },
+  {
+    "projectName": "Jogger Sports",
+    "imageUri": "/projects/joggerSports/main.jpg",
+    "link": "https://joggersports.netlify.app/",
+    "wokringTimeLine": "12-2023 to 02-2024",
+    "projectDiscription": "This shopify website is an interactive UI for an online sports store designed to provide an immersive and engaging shopping experience for sports enthusiasts. With a user-friendly interface and intuitive navigation, customers can easily browse through various sports categories, explore product details, and make informed purchasing decisions.",
+    "cardLength": "sm",
+    "techStack": [
+      " MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Bootstrap",
+      "CSS",
+      "HTML"
+    ],
+    "githubLinks": [
+      {
+        "heading": "Frontend Repo",
+        "link": "https://github.com/lambaharsh01/joggerSportStore"
+      },
+      {
+        "heading": "Backend Repo",
+        "link": "https://github.com/lambaharsh01/joggerBackend"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/joggerSports/dashboard.jpg" },
+      { "imageUri": "/projects/joggerSports/collection2.jpg" },
+      { "imageUri": "/projects/joggerSports/infoBanner.jpg" },
+      { "imageUri": "/projects/joggerSports/collection.jpg" },
+      { "imageUri": "/projects/joggerSports/product.jpg" },
+      { "imageUri": "/projects/joggerSports/featuredMobile.jpg" }
+    ]
+  },
+  {
+    "projectName": "Bus Ticket App",
+    "imageUri": "/projects/charter/main.jpg",
+    "dowloadLink":"https://drive.google.com/file/d/1X6o15bHa6XvJUPdvbLAR4mHVoTEIdk4o/view?usp=drive_link",
+    "wokringTimeLine": "02-2024 to 04-2024",
+    "projectDiscription": "This is a clone of the bus ticketing app Charter, used for booking online tickets with the Delhi Transport Corporation.",
+    "cardLength": "xxl",
+    "techStack": ["React Native"],
+    "githubLinks": [
+      {
+        "heading": "Charter App Repo",
+        "link": "https://github.com/lambaharsh01/ticketingMobileApp"
+      }
+    ],
+    "gallery": [
+      { "imageUri": "/projects/charter/dashboard.jpg" },
+      { "imageUri": "/projects/charter/ticket.jpg" },
+      { "imageUri": "/projects/charter/history.jpg" },
+      { "imageUri": "/projects/charter/scan.jpg" },
+      { "imageUri": "/projects/charter/ticket2.jpg" }
+    ]
+  }
+]
