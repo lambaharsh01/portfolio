@@ -30,7 +30,7 @@ function App() {
       });
   }, []);
 
-  https: return (
+  return (
     <div className="container-fluid main_container" id="pageTop">
       <ToastContainer
         autoClose={2000}
