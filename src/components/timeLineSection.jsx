@@ -48,7 +48,7 @@ export default function TimeLineSection(){
                     <h1 className={`font-bold ${ smallScreen ? "text-4xl pb-1" : "text-5xl pb-2"}`}>
                         <AnimateWords string='My ' averageTimeGap={0.1} initialDelay={1}/>
                         <br />
-                        <AnimateWords string='Experience.' averageTimeGap={0.15} initialDelay={1}/>
+                        <AnimateWords string='Experience' averageTimeGap={0.15} initialDelay={1}/>
                     </h1>
                 </div>
             </div>

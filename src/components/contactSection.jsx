@@ -63,16 +63,15 @@ const validateFields= ()=> {
 
 return(
 <div className="w-full">
-        <div className='darkGreyBackground h-5 rounded-t-3xl'></div>
-
+        <div className='darkGreyBackground h-5 rounded-t-3xl -mt-5'></div>
         <div className='darkGreyBackground pt-2 pb-3 ps-3 border-bottom'>
 
             <span className={`text-white font-semibold  ${ smallScreen ? "text-4xl":"text-5xl"}`}>
-                <AnimateWords string='My' averageTimeGap={0.1} initialDelay={1}/>
+                <AnimateWords string='My' averageTimeGap={0.05} initialDelay={1}/>
             </span>
                 <br />            
             <span className={`text-white font-semibold  ${ smallScreen ? "text-4xl":"text-5xl"}`}>
-                <AnimateWords string='Contacts' averageTimeGap={0.1} initialDelay={1}/>
+                <AnimateWords string='Contacts' averageTimeGap={0.05} initialDelay={1}/>
             </span>
             
         </div>
@@ -85,7 +84,7 @@ return(
         
 
         <h3 className={`text-white ${ smallScreen ? "text-4xl":"text-5xl"} mb-4`}>
-            <AnimateWords string="Get In Touch" averageTimeGap={0.1} initialDelay={1}/>
+            <AnimateWords string="Get In Touch" averageTimeGap={0.05} initialDelay={1}/>
         </h3>
 
 
@@ -95,7 +94,7 @@ return(
 
 
             <h3 className={`text-white ${ smallScreen ? "text-2xl":"text-2xl"} mt-4 mb-2`}>
-                    <AnimateWords string="Contact Information:" averageTimeGap={0.1} initialDelay={1}/>
+                    <AnimateWords string="Contact Information:" averageTimeGap={0.02} initialDelay={1}/>
             </h3>
 
             <h3 className={`text-white text-lg`}>
@@ -114,7 +113,7 @@ return(
         <div className='w-100 h-100 p-4'>
 
         <h3 className={`darkGreyText ${ smallScreen ? "text-4xl":"text-5xl"} mb-4`}>
-            <AnimateWords string='Send Your Query' averageTimeGap={0.1} initialDelay={1}/>
+            <AnimateWords string='Send Your Query' averageTimeGap={0.02} initialDelay={0.8}/>
         </h3>
 
         <input 
@@ -156,7 +155,7 @@ return(
             className='darkGreyBackground border-0 p-2 w-full text-2xl font-medium text-white mb-4'
             onClick={validateFields}
             disabled={disable}>
-            <AnimateWords string={querySubmissionStatus} averageTimeGap={0.1} initialDelay={1}/>
+            <AnimateWords string={querySubmissionStatus} averageTimeGap={0.02} initialDelay={0.8}/>
         </button>
 
         </div>

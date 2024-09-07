@@ -37,7 +37,7 @@ const smallScreen=isSmallScreen();
 
 const [show, setShow]=useState(false);
 
-const { imageUri, cardLength, projectName, projectDiscription, wokringTimeLine, githubLinks, link, gallery } = projectData;
+const { imageUri, cardLength, projectName, projectDiscription, wokringTimeLine, githubLinks, link, gallery, techStack } = projectData;
 
 
 if(!imageUri) return (<span></span>);
@@ -91,7 +91,7 @@ return (
                                 className="projectCardImage linkElements"
                                 onClick={()=>{setShow(true); disableScroll()}}
                             />
-                            <div className="absolute bottom-0 bg-slate-200 z-10 w-100 projectContent p-1 text-center">
+                            <div className="absolute bottom-0 bg-white border-top z-10 w-100 projectContent p-1 text-center">
                                 <span className={`px-1 flex justify-between font-bold ${smallScreen ? "text-base":"text-xl"}`}>
                                     
                                     {projectName}  
@@ -135,6 +135,10 @@ return (
 
     <div className="mb-3"><span className="font-bold mb-2">Working Timeline :</span> <span>{wokringTimeLine}</span></div>
     <div className="mb-3"><span className="font-bold mb-2">Discription :</span> <span>{projectDiscription}</span></div>
+    
+    {techStack && techStack.length && <div className="mb-3"><span className="font-bold mb-2">Tech Stack :</span> <span>{
+        techStack.join(", ")
+        }</span></div>}
     
     {link && <div className="mb-7">
 

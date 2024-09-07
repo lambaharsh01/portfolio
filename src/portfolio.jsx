@@ -43,7 +43,10 @@ return(
 <ProjectSection />
 
 
-<AdditionalInformationSection/>
+<AdditionalInformationSection
+heading='Why Am I A Developer You Ask?'
+subHeading="I'm a problem-solver at heart, and I love finding creative solutions to everyday challenges."
+discription="By learning to code, I can create my own small software solutions that make my life easier and it's kind of cheap when you know how to code. It's a win-win!"/>
 
 
 <Contact/>

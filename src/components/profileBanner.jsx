@@ -27,7 +27,7 @@ export default function ProfileBanner(){
     
             <a rel="noreferrer" href="https://www.linkedin.com/in/harsh-lamba-1b185b214" target="_blank">
               <FaLinkedin 
-              className={`ps-sm-4 ms-sm-0 ms-2 r_icon ${smallScreen ? "text-white":"darkGreyText"}`}
+              className={`ps-sm-4 ms-sm-0 ms-2 r_icon text-white random`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 1s',
@@ -39,7 +39,7 @@ export default function ProfileBanner(){
   
             <a rel="noreferrer" href="https://github.com/lambaharsh01" target="_blank">
               <FaGithubSquare 
-              className={`ps-sm-4 ms-sm-0 ms-2 r_icon ${smallScreen ? "text-white":"darkGreyText"}`}
+              className={`ps-sm-4 ms-sm-0 ms-2 r_icon text-white random`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 1.8s',
@@ -51,7 +51,7 @@ export default function ProfileBanner(){
   
             <a rel="noreferrer" href="https://wa.link/zfpu97" target="_blank">
               <FaWhatsappSquare 
-              className={`ps-sm-4 ms-sm-0 ms-2 r_icon ${smallScreen ? "text-white":"darkGreyText"}`}
+              className={`ps-sm-4 ms-sm-0 ms-2 r_icon text-white random`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 2.6s',
@@ -63,7 +63,7 @@ export default function ProfileBanner(){
   
             <a href="tel:8287868558" rel="noreferrer">
               <FaPhoneSquareAlt 
-              className={`ms-sm-4 ms-2 r_icon_phone ${smallScreen ? "text-white":"darkGreyText"}`}
+              className={`ms-sm-4 ms-2 r_icon_phone text-white random`}
               style={{
                 opacity: inView ? 1 : 0,
                 transition: 'opacity 3.4s',

@@ -60,8 +60,6 @@
 .information {
   padding-top: 30px;
   background: rgba(0, 0, 0, 0.4) url(../public/portfolio_images/bg.jpg);
-  /* background-blend-mode:darken;  */
-  /* background: rgba(0,0,0,.4) url(../public/portfolio_images/bg.jpg); background-blend-mode:darken;  */
   background-size: 100%;
   background-attachment: fixed;
 }
