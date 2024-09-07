@@ -103,14 +103,89 @@ export default function ProjectSection(){
         },
       ],
     },
+    {
+      projectName:"Furniture Store",
+      imageUri: '/projects/wood/main.jpg',
+      wokringTimeLine:"07-2022 to 08-2022",
+      projectDiscription:"This shopify website is an interactive UI for an online furniture store designed to provide user-friendly interface where customers can easily navigate through various furniture/ wood categories.",
+      cardLength:"md",
+      techStack:["Bootstrap", "CSS", "HTML"],
+      githubLinks: [
+        {
+          heading:"Furniture Store Repo",
+          link:"https://github.com/lambaharsh01/Wood-furniture-page-"
+        }
+      ],
+      gallery:[
+        { 
+          heading:"",
+          imageUri: "/projects/wood/dashboard.jpg"
+        },
+        { 
+          heading:"",
+          imageUri: "/projects/wood/products.jpg"
+        },
+        { 
+          heading:"",
+          imageUri: "/projects/wood/product.jpg"
+        },
+        { 
+          heading:"",
+          imageUri: "/projects/wood/sidebar.jpg"
+        },
+      ],
+    },
+    {
+      projectName:"Code Editor",
+      imageUri: '/projects/ide/main.jpg',
+      wokringTimeLine:"05-2024 to 05-2024",
+      projectDiscription:"A simple code editor built with vanilla JavaScript, allowing you to execute and view HTML, CSS, and JavaScript code. Output includes rendered HTML, applied CSS, and console logs",
+      cardLength:"sm",
+      techStack:["HTML", "CSS", "Javascript"],
+      githubLinks: [
+        {
+          heading:"Code Editor",
+          link:"https://github.com/lambaharsh01/ideVanillaJavascript"
+        }
+      ],
+      gallery:[
+        { 
+          heading:"",
+          imageUri: "/projects/ide/main2.jpg"
+        },
+        { 
+          heading:"",
+          imageUri: "/projects/ide/main.jpg"
+        },
+      ],
+    },
+    {
+      projectName:"Brochureware",
+      imageUri: '/projects/vsit/main.jpg',
+      wokringTimeLine:"07-2022 to 08-2022",
+      projectDiscription:"This is Brochureware web page for an educational institution for their online presences.",
+      cardLength:"sm",
+      techStack:["CSS", "HTML"],
+      githubLinks: [
+        {
+          heading:"VSIT Brochureware",
+          link:"https://github.com/lambaharsh01/Vsit"
+        }
+      ],
+      gallery:[
+        { 
+          heading:"",
+          imageUri: "/projects/vsit/cources.jpg"
+        },
+        { 
+          heading:"",
+          imageUri: "/projects/wood/contact.jpg"
+        },
+      ],
+    },
   ]
 
   const projectArray=[ ...projectArrayToBeConstant, ...shuffleArray(projectArrayToBeShuffled)]
-
-
-  for(let i=0; i<1; i++){
-    projectArray.push(...projectArrayToBeShuffled)
-  }
 
 
 return (
