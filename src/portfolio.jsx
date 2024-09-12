@@ -25,7 +25,8 @@ function App() {
       .then(() => {
         console.log("backend server connection established successfully.");
       })
-      .catch(() => {
+      .catch((error) => {
+        console.log(error)
         console.error("Some error connecting to the backend server.");
       });
   }, []);
