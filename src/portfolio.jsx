@@ -23,7 +23,7 @@ function App() {
     axios
       .get(baseUri + "/handShake")
       .then(() => {
-        console.log("backend server connection established.");
+        console.log("backend server connection established successfully.");
       })
       .catch(() => {
         console.error("Some error connecting to the backend server.");
