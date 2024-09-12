@@ -1,5 +1,6 @@
 [
   {
+    "id":1,
     "projectName": "RentCo",
     "imageUri": "/projects/rentCo/main.jpg",
     "link": "https://rentcofrontend.netlify.app/",
@@ -36,6 +37,7 @@
     ]
   },
   {
+    "id":2,
     "projectName": "Jogger Sports",
     "imageUri": "/projects/joggerSports/main.jpg",
     "link": "https://joggersports.netlify.app/",
@@ -71,6 +73,7 @@
     ]
   },
   {
+    "id":3,
     "projectName": "Bus Ticket App",
     "imageUri": "/projects/charter/main.jpg",
     "dowloadLink":"https://drive.google.com/file/d/1X6o15bHa6XvJUPdvbLAR4mHVoTEIdk4o/view?usp=drive_link",
