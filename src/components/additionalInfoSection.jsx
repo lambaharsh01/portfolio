@@ -3,7 +3,7 @@ import AnimateWords from "./animateWords"
 export default function AdditionalInformationSection({heading="", subHeading="", discription="", buttonText="" , link="", }){
 
     return (
-        <div className="w-100 bg-white py-24 px-3 text-center darkGreyText">
+        <div className="w-100 bg-white pt-24 pb-16 px-3 text-center darkGreyText">
 
         <div className="w-full">
           <h1 className="font-extrabold text-4xl mb-2">

@@ -9,7 +9,19 @@ import AnimateWords from './animateWords';
 // data dependencies
 import timeLineObject from "../data/timeLine.json"
 
-export default function TimeLineSection(){
+export default function TimeLineSection() {
+
+
+//    {
+//     "timeLineYear": "2019-22",
+//     "heading": "Graduation",
+//     "subHeading": "Delhi University",
+//     "timeLine": "05/2019 to 06/2022",
+//     "discription": "I graduated with honors in GeoInformatics/Geography from Delhi University, where I served as Vice President of the Departmental Society, 'Shivalik', and was an active member of the Debating Society, 'Dictum'. These roles allowed me to play a key part in organizing and managing numerous college events, while developing strong leadership and communication skills.",
+//     "bottomHeading": "Skills: ",
+//     "bottomContent": " Leadership and Team Management, Public Speaking and Debating,  Research and Analytical Skills",
+//     "shadeOfGray": 5
+//   }
 
     const smallScreen= isSmallScreen();
 
