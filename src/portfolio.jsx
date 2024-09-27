@@ -60,7 +60,7 @@ function App() {
         discription="By learning to code, I can create my own small software solutions that make my life easier and it's kind of cheap when you know how to code. It's a win-win!"
       />
 
-      <SkillsSection/>
+      {/*<SkillsSection/>*/}
 
       <Contact />
     </div>
