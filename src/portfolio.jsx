@@ -50,9 +50,9 @@ function App() {
 
       <ProfileBanner />
 
-      <TimeLineSection />
-
       <ProjectSection />
+
+      <TimeLineSection />
 
       <AdditionalInformationSection
         heading="Why Am I A Developer You Ask?"
