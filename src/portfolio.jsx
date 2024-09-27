@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { ToastContainer } from "react-toastify";
 
-{/*import SkillsSection from "./components/skillsSection";*/}
+//import SkillsSection from "./components/skillsSection";
 
 // Components
 import Header from "./components/header";
