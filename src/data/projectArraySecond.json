@@ -1,8 +1,10 @@
 [
   {
-    "id":4,
+    "id": 4,
     "projectName": "Google Drive API",
+    "catagory": "Tools",
     "imageUri": "/projects/googleDrive/main.jpg",
+    "link": "https://github.com/lambaharsh01/googleDriveApi",
     "wokringTimeLine": "08-2022 to 08-2022",
     "projectDiscription": "This is a small project where Google Drive API is integrated with Node Js to pload files directly to google drive and using it as a storage",
     "cardLength": "md",
@@ -20,9 +22,11 @@
     ]
   },
   {
-    "id":5,
+    "id": 5,
     "projectName": "Furniture Store",
+    "catagory": "Ecommerce",
     "imageUri": "/projects/wood/main.jpg",
+    "link": "https://github.com/lambaharsh01/Wood-furniture-page-",
     "wokringTimeLine": "07-2022 to 08-2022",
     "projectDiscription": "This shopify website is an interactive UI for an online furniture store designed to provide user-friendly interface where customers can easily navigate through various furniture/ wood categories.",
     "cardLength": "md",
@@ -42,9 +46,11 @@
     ]
   },
   {
-    "id":6,
+    "id": 6,
     "projectName": "Code Editor",
+    "catagory": "Tools",
     "imageUri": "/projects/ide/main.jpg",
+    "link": "https://github.com/lambaharsh01/ideVanillaJavascript",
     "wokringTimeLine": "05-2024 to 05-2024",
     "projectDiscription": "A simple code editor built with vanilla JavaScript, allowing you to execute and view HTML, CSS, and JavaScript code. Output includes rendered HTML, applied CSS, and console logs",
     "cardLength": "sm",
@@ -61,8 +67,10 @@
     ]
   },
   {
-    "id":7,
+    "id": 7,
     "projectName": "Brochureware",
+    "catagory": "Digital Publications",
+    "link": "https://github.com/lambaharsh01/Vsit",
     "imageUri": "/projects/vsit/main.jpg",
     "wokringTimeLine": "07-2022 to 08-2022",
     "projectDiscription": "This is Brochureware web page for an educational institution for their online presences.",
@@ -81,9 +89,11 @@
     ]
   },
   {
-    "id":8,
+    "id": 8,
     "projectName": "Nike Clone",
+    "catagory": "Ecommerce",
     "imageUri": "/projects/nike/main.jpg",
+    "link": "https://github.com/lambaharsh01/nikeClonePureHTML",
     "wokringTimeLine": "05-2022 to 05-2022",
     "projectDiscription": "This is a clone of Nike's website made with pure html without css",
     "cardLength": "sm",
