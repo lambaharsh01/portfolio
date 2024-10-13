@@ -10,7 +10,7 @@ export default function HeaderSection() {
         <div className="profile__container grid">
           <div className="profile__data">
             <div className="profile__border" >
-            <img src="/portfolio_images/bw.jpg" alt="profile" className="rounded-full" />
+            <img src="/portfolio_images/bw.png" alt="profile" className="rounded-full" />
             </div>
 
             <h2 className="profile__name" >
